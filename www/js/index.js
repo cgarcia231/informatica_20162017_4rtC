@@ -62,3 +62,8 @@ function draw(amplada_pantalla_CSS,alcada_pantalla_CSS,posicio_x_bola,posicio_y_
 		
 		
 }
+//borrar
+var limpiar = document.getElementById("limpiar");
+limpiar.addEventListener("click",function(){
+	canvas.width=canvas.width;
+},false);
